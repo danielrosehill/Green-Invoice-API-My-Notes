@@ -19,3 +19,31 @@
 | 500 | הזמנת רכש               | Hazmanat Rechash          |
 | 600 | קבלת פיקדון             | Kabalat Pikadon           |
 | 610 | משיכת פיקדון            | Meshichat Pikadon         |
+
+---
+
+## IDs For The Most Common Documents
+
+### Invoices
+
+Heshbon Iska - 300
+
+### Receipts - Israeli Clients
+
+Heshbonit Mas / Kabala - 320
+
+### Receipts - ROW Clients
+
+Kabala - 300
+
+---
+
+## Filtering Syntax For Automations (By Document Type)
+
+### Client Invoices
+
+Filter on ID = 300
+
+### Client Receipts
+
+Filter on ID = 320, 300
