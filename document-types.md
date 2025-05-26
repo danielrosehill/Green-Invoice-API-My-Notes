@@ -34,7 +34,7 @@ Heshbonit Mas / Kabala - 320
 
 ### Receipts - ROW Clients
 
-Kabala - 300
+Kabala - 400
 
 ---
 
@@ -46,4 +46,4 @@ Filter on ID = 300
 
 ### Client Receipts
 
-Filter on ID = 320, 300
+Filter on ID = 320, 400
