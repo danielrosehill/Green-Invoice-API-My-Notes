@@ -1,0 +1,57 @@
+{
+    "id": "a1b2c3d4-5678-90ab-cdef-1234567890ab",
+    "type": 300,
+    "number": 98765,
+    "businessId": "abc12345-def6-7890-ghij-klmnopqrstuv",
+    "businessType": 1,
+    "currency": "ILS",
+    "country": "IL",
+    "date": "2025-05-26",
+    "createdAt": 1748284806000,
+    "subtotal": 1,
+    "taxableTotal": 0,
+    "vatTaxableTotal": 0,
+    "revenueTaxableTotal": 1,
+    "exemptTotal": 1,
+    "rounding": false,
+    "bill": {
+      "url": "https://pages.greeninvoice.co.il/en/payments/bills/12345678-90ab-cdef-1234-567890abcdef"
+    },
+    "tax": [],
+    "total": 1,
+    "description": "",
+    "remarks": "",
+    "reverseCharge": false,
+    "recipient": {
+      "id": "fedcba98-7654-3210-ba98-abcdef123456",
+      "name": "Example Client",
+      "department": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "country": "IL",
+      "phone": "",
+      "mobile": "",
+      "emails": ["client@example.com"]
+    },
+    "items": [
+      {
+        "description": "Sample Item",
+        "sku": "SAMPLE",
+        "quantity": 1,
+        "price": 1,
+        "currency": "ILS",
+        "taxIncludedInPrice": false
+      }
+    ],
+    "transactions": [],
+    "files": {
+      "signed": true,
+      "downloadLinks": {
+        "he": "https://www.greeninvoice.co.il/api/v1/documents/download?d=randomHashHe123",
+        "en": "https://www.greeninvoice.co.il/api/v1/documents/download?d=randomHashEn456",
+        "origin": "https://www.greeninvoice.co.il/api/v1/documents/download?d=randomHashOrigin789"
+      }
+    }
+  }
+  
